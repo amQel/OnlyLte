@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/OnlyLTEBczes.iml" filepath="$PROJECT_DIR$/OnlyLTEBczes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OnlyLte.iml" filepath="$PROJECT_DIR$/OnlyLte.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

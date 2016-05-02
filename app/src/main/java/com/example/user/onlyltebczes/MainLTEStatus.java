@@ -19,15 +19,21 @@ public class MainLTEStatus extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_ltestatus);
+
+        final TextView networkStatus = (TextView)findViewById(R.id.networkStatus);
+        networkStatus.setText(getNetworkClass());
+
 
         final Handler h = new Handler();
         final int delay = 5000; //milliseconds
 
         h.postDelayed(new Runnable(){
             public void run(){
-                TextView networkStatus = (TextView)findViewById(R.id.networkStatus);
+
                 networkStatus.setText(getNetworkClass());
                 h.postDelayed(this, delay);
             }
